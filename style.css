@@ -73,7 +73,7 @@ button:hover {
 
 /* Heading */
 .heading,
-label[for="new-task"] {
+.add-section__label {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -83,7 +83,7 @@ label[for="new-task"] {
     text-transform: uppercase;
 }
 
-input[type="text"] {
+.text-input {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -96,17 +96,17 @@ input[type="text"] {
     color: #888;
 }
 
-input[type="text"]:focus {
+.text-input:focus {
     color: #333;
 }
 
 /* New Task */
-label[for="new-task"] {
+.add-section__label_new-task {
     display: block;
     margin: 0 0 20px;
 }
 
-#new-task {
+.text-input_new-task {
     width: 318px;
 }
 
