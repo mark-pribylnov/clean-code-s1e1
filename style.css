@@ -165,6 +165,6 @@ button:hover {
     width: 224px;
 }
 
-.list .list-item.edit-mode .label {
+.label_edit-mode {
     display: none;
 }

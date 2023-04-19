@@ -87,9 +87,11 @@ var editTask = function () {
     label.innerText = editInput.value;
     editBtn.innerText = "Edit";
     editInput.classList.remove('list-item__text-input_edit-mode');
+    label.classList.remove('label_edit-mode');
     // console.log(editInput)
   } else {
     editInput.value = label.innerText;
+    label.classList.add('label_edit-mode');
     editBtn.innerText = "Save";
     editInput.classList.add('list-item__text-input_edit-mode');
   }
