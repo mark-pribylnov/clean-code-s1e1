@@ -156,8 +156,8 @@ button:hover {
 }
 
 /* Edit Task */
-.list .list-item input[type=text] {
-    display:none;
+.list-item__text-input {
+    display: none;
 }
 
 .list .list-item.edit-mode input[type=text] {
