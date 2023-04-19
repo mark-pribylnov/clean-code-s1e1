@@ -12,11 +12,11 @@ body {
     text-align: right;
 }
 
-.img-container img {
+img {
     width: 100%;
 }
 
-.img-container .more-info {
+.img-container {
     font-family: fantasy, cursive;
 }
 
@@ -150,7 +150,7 @@ button:hover {
 }
 
 /* Completed */
-#completed-tasks .label {
+.label_completed {
     text-decoration: line-through;
     color: #888;
 }
