@@ -86,9 +86,12 @@ var editTask = function () {
     //label becomes the inputs value.
     label.innerText = editInput.value;
     editBtn.innerText = "Edit";
+    editInput.classList.remove('list-item__text-input_edit-mode');
+    // console.log(editInput)
   } else {
     editInput.value = label.innerText;
     editBtn.innerText = "Save";
+    editInput.classList.add('list-item__text-input_edit-mode');
   }
 
   //toggle .edit-mode on the parent.

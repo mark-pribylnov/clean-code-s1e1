@@ -160,7 +160,7 @@ button:hover {
     display: none;
 }
 
-.list .list-item.edit-mode input[type=text] {
+.list-item__text-input_edit-mode {
     display: inline-block;
     width: 224px;
 }
