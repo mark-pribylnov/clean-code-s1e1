@@ -101,6 +101,7 @@ button:hover {
 }
 
 /* New Task */
+
 .add-section__label_new-task {
     display: block;
     margin: 0 0 20px;
@@ -122,32 +123,29 @@ button:hover {
     align-items: center;
 }
 
-.list-item > * {
-    vertical-align: middle;
-}
-
-.list-item > input[type="checkbox"] {
+.list-item__checkbox {
     margin: 0 10px;
 }
 
-.list-item > .label {
+.label,
+.add-section__label {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
 }
 
-.list-item >    input[type="text"] {
+.text-input {
     width: 226px;
 }
 
-.delete .delete-icon {
+.delete-icon {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
 
-.delete .delete-icon:hover {
+.delete-icon:hover {
     transform: rotateZ(0);
 }
 
